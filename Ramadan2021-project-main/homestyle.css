@@ -1,0 +1,208 @@
+.navBar {
+    top: 0;
+    height: 75px;  /*need to add extra 75px to top div in all pages*/
+    width: 100%;
+    background-color: #054b8d;
+    position: fixed;
+    display: flex;
+    align-items: center; /*vertical align*/
+}
+*{
+    flex: auto;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-shadow: 3px 2px red;
+    text-align:center;
+}
+p{
+    height:30px;
+    color: whitesmoke;
+    background-color:blueviolet;
+    font-size: 20px;
+}
+th,td{
+    border: 1px dashed black;
+    text-align: center;
+    padding: 6px;
+}
+th,td:hover{
+    background-color: royalblue;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: gold;
+    color: #054b8d;
+}
+th{
+    background-color:darkgreen;
+    color:white;
+    height: 15px;
+}
+table{
+    font-weight: bold;
+    margin: 0 auto;
+    border-left: 10px solid gray;
+    border-right: 10px solid gray;
+    border-top: 10px solid goldenrod;
+    border-bottom: 10px solid goldenrod;
+    border-radius: 3px;
+}
+body{
+    background-color: rgb(43, 138, 50);
+}
+h3{
+    text-align: center;
+}
+.social-media {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+
+}
+.social-media a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 20px;
+}
+.social-media h3{
+    color: blanchedalmond;
+    margin-top: 20px;
+}
+.logo {
+    padding-left: 25px;
+    flex-grow: 1;
+}
+.logo img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+
+.navButtons {
+    padding-right: 25px;
+}
+.navButtons button {
+    color: white;
+    padding: 10px 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.navButtons button:hover {
+    background: #1c3266;
+}
+
+.backgroundImg {
+    position: absolute;
+    z-index: -10;  /*put image behind everything*/
+    height: 100%;
+    width: 100%;
+}
+
+.welcomeDiv {
+    padding-top: 150px;
+    text-align: center;
+    font-weight: bolder;
+}
+.welcomeMsg {
+    font-size: 40px;
+    color: darkgreen;
+}
+
+
+.selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px 50px 50px 50px;
+    padding: 20px;
+}
+
+.first10 {
+    padding: 10px 0px;
+}
+.first10 button {
+    background: darkolivegreen;
+    padding: 15px 20px;
+    font-size: 25px;
+}
+.first10 button:hover {
+    background: #5f015f;
+}
+
+.second10 {
+    padding: 10px 0px;
+}
+.second10 button {
+    background: yellowgreen;
+    padding: 15px 20px;
+    font-size: 25px;
+}
+.second10 button:hover {
+    background: #cf8702;
+}
+
+.third10 {
+    padding: 10px 0px;
+}
+.third10 button {
+    background: darkgreen;
+    padding: 15px 20px;
+    font-size: 25px;
+}
+.third10 button:hover {
+    background: #d65142;
+}
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
